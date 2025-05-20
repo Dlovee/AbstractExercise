@@ -88,7 +88,11 @@ namespace ConsoleUI
             }
 
             // Call each of the drive methods for one car and one motorcycle
-            
+            car1.DriveAbstract();
+            car1.DriveVirtual();
+            motorcycle1.DriveAbstract();
+            motorcycle1.DriveVirtual();
+
 
             #endregion            
         }
